@@ -16,3 +16,7 @@ Acquiring a lock and then invoking a function or subroutine that happens to use 
 2. Algorithm Structures
 3. Supporting Structures
 4. Implementation Mechanisms
+
+
+### Grain Size
+The number of iterations need to done on a single processor. Grain size helps to hide out parallel overhead. Larger the Grain Size, better the performance. Don't think of it as the number of iterations that can be done on a processor. Think of it as how many number of iterations are enough to keep the overhead minimum.
